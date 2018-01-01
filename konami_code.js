@@ -12,7 +12,7 @@ function init() {
   let index = 0;
   
   b.addEventListener('keydown', function onKeyDownHandler(e) {
-    const key = parseInt(e.key);
+    const key = parseInt(e.detail);
     console.log(parseInt(key))
   })
  
