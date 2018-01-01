@@ -1,5 +1,10 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
-const code_str = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft"]
+const code_str = ["ArrowUp",
+                  "ArrowUp", 
+                  "ArrowDown", 
+                  "ArrowDown", 
+                  "ArrowLeft", 
+                  "ArrowRight"]
 function init() {
   // Write your JavaScript code inside the init() function
   const b = document
