@@ -21,7 +21,7 @@ function init() {
     if (keyName === code[index]) {
       index++;
       if (index === code.length) {
-        alert("Hurray!", index)
+        alert("Hurray!" + parseInt(index))
       }
     } else {
       index = 0;
