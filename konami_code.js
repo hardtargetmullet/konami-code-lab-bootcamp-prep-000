@@ -25,7 +25,7 @@ function init() {
     } else {
       index = 0;
     }
-  }
-    alert('keydown event\n\n' + 'key: ' + keyName);
+  })
+    //alert('keydown event\n\n' + 'key: ' + keyName);
 }
  
