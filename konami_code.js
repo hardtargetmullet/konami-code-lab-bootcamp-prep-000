@@ -9,7 +9,7 @@ function init() {
     const keyName = event.key;
     alert('keydown event\n\n' + 'key: ' + keyName);
     
-  });
+  })
   //let index = 0;
   
   //b.addEventListener('keydown', function onKeyDownHandler(e) {
