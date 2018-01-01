@@ -4,7 +4,11 @@ const code_str = ["ArrowUp",
                   "ArrowDown", 
                   "ArrowDown", 
                   "ArrowLeft", 
-                  "ArrowRight"]
+                  "ArrowRight"
+                  "ArrowLeft",
+                  "ArrowRight",
+                  "a",
+                  "b"]
 function init() {
   // Write your JavaScript code inside the init() function
   const b = document
