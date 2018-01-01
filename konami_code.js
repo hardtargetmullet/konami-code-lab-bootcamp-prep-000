@@ -7,8 +7,8 @@ const code_str = ["ArrowUp",
                   "ArrowRight",
                   "ArrowLeft",
                   "ArrowRight",
-                  "a",
-                  "b"];
+                  "b",
+                  "a"];
                   
 function init() {
   // Write your JavaScript code inside the init() function
