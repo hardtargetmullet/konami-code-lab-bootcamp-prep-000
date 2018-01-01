@@ -4,5 +4,4 @@ function init() {
   // Write your JavaScript code inside the init() function
   const b = document.querySelector('body')
   console.log(b)
-});
 }
