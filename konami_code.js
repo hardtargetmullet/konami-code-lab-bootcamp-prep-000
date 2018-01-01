@@ -5,9 +5,10 @@ function init() {
   const b = document
   //console.log(b)
   
-  b.addEventListener('keydown', function(e) { {
-       console.log(e.detail || e.which)
-      }
+  document.addEventListener('keydown', (event) => {
+    const keyName = event.key;
+    alert('keydown event\n\n' + 'key: ' + keyName);
+    
   });
   //let index = 0;
   
