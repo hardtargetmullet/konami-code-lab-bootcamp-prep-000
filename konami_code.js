@@ -19,7 +19,7 @@ function init() {
     const keyName = event.key;
     if (keyName === code_str[index]) {
       index++;
-      if (index === 2) {
+      if (index === code_str.length) {
         alert("Hurray!")
       }
     } else {
