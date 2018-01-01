@@ -22,6 +22,7 @@ function init() {
       index++;
       if (index === code_str.length) {
         alert("Hurray!")
+        index = 0;
       }
     } else {
       index = 0;
