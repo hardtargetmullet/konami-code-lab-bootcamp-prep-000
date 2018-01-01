@@ -12,11 +12,8 @@ function init() {
   let index = 0;
   
   b.addEventListener('keydown', function onKeyDownHandler(e) {
-    const key = parseInt(e.detail || e.which);
-    
-    if (key === alphabet[index]) {
+    const key = parseInt(e.key);
       alert("Hurray!")
-    }
   })
  
 }
