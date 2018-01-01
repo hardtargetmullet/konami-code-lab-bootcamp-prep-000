@@ -4,39 +4,28 @@ const code_str = ["ArrowUp",
                   "ArrowDown", 
                   "ArrowDown", 
                   "ArrowLeft", 
-                  "ArrowRight"
+                  "ArrowRight",
                   "ArrowLeft",
                   "ArrowRight",
                   "a",
-                  "b"]
+                  "b"];
+                  
 function init() {
   // Write your JavaScript code inside the init() function
-  const b = document
-  //console.log(b)
+  
+  let index = 0;
   
   document.addEventListener('keydown', (event) => {
     const keyName = event.key;
+    if (keyName === code_str[index]) {
+      index++;
+      if (index === 2) {
+        alert("Hurray!")
+      }
+    } else {
+      index = 0;
+    }
+  }
     alert('keydown event\n\n' + 'key: ' + keyName);
-    
-  })
-  //let index = 0;
-  
-  //b.addEventListener('keydown', function onKeyDownHandler(e) {
-   // const key = parseInt(e.which || e.detail);
-    
-    //if (key === code[index]) {
-     // index++;
-      
-     // if (index === code.length) {
-     //   alert("Hurray!");
-        
-     //   index = 0;
-    //  }
-      
-   // } else {
-     // index = 0;
-   // }
-   // console.log(parseInt(key))
- // })
- 
 }
+ 
