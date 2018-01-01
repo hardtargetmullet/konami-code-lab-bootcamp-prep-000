@@ -16,18 +16,28 @@ function init() {
   let index = 0;
   
   document.body.addEventListener('keydown', (event) => {
-    const keyName = event.key;
+    //const keyName = event.key;
+    const keyName = event.which
     console.log(event.which, event.location, event.detail)
     //console.log(keyName, index, code.length)
-    if (keyName === code_str[index]) {
+    if (keyName === code[index]) {
       index++;
-      if (index === code_str.length) {
+      if (index === code.length) {
         alert("Hurray!")
         index = 0;
       }
     } else {
       index = 0;
     }
+    // if (keyName === code_str[index]) {
+    //   index++;
+    //   if (index === code_str.length) {
+    //     alert("Hurray!")
+    //     index = 0;
+    //   }
+    // } else {
+    //   index = 0;
+    // }
   })
     //alert('keydown event\n\n' + 'key: ' + keyName);
 }
