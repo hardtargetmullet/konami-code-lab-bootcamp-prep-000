@@ -17,10 +17,10 @@ function init() {
   
   document.body.addEventListener('keydown', (event) => {
     const keyName = event.key;
-    console.log(keyName, index, code.length)
-    if (keyName === code[index]) {
+    //console.log(keyName, index, code.length)
+    if (keyName === code_str[index]) {
       index++;
-      if (index === code.length) {
+      if (index === code_str.length) {
         alert("Hurray!")
       }
     } else {
